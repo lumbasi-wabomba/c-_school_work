@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int k =5;
+  int w= -2;
+  int p;
+    do{
+      
+      p = w+k;
+      w = w+2;
+      cout <<p<< endl;
+    }while (w<= k);
+    return 0;
+}
