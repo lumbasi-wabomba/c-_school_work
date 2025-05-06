@@ -9,6 +9,6 @@ int main() {
 
       }
       number--;
-    }while(number <28 && number >17);
+    }while(number <28 && number >11);
     return 0;
 }
