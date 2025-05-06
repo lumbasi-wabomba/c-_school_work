@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string message = "Happy Birthday!";
+   int current_year = 2025;
+   int age;
+   cout<< "enter your age:"<< endl;
+   cin>> age;
+   int num_happy_birthdays = current_year - age;
+   do {
+     cout<<"year: "<< num_happy_birthdays<< " "<< message<< endl;
+    num_happy_birthdays++;
+   }while (num_happy_birthdays<= current_year);
+
+    return 0;
+}
