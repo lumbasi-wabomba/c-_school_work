@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int k =5;
+  int w= -2;
+  int p;
+    for (int i =0; i< k; i++){
+      if (w <=k){
+        p = w+k;
+        w = w+2;
+        cout <<p<< endl;
+
+      }
+    }
+    return 0;
+}
