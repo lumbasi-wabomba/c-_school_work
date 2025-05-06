@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number =28;
+    do{
+      if(number %2 ==0 ){
+        cout<< number << endl;
+
+      }
+      number--;
+    }while(number <28 && number >17);
+    return 0;
+}
