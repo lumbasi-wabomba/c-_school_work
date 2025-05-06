@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string message = "I am sorry";
+   int numSorry;
+   cout<< "enter number of times you want me to tell you sorry"<< endl;
+   cin>> numSorry;
+   for(int i =0 ; i <= numSorry; i++){
+    cout<<i <<":"<< message << endl;
+   }
+    return 0;
+}
